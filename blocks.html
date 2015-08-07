@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<title>Blocks</title>
+
+		<style type="text/css">
+			#blocksContainer {
+				width: 700px;
+			}
+			.block, .blocko {
+				float: left;
+				background-color: #00AAAE;
+				margin-right: 5px;
+				margin-bottom: 5px;
+				height: 20px;
+				width: 20px;
+			}
+			.button {
+				display: block;
+				background: #FF6600;
+				border: 1px solid #FF6600;
+				font-size: 1em;
+				font-weight: 400;
+				color: #ffffff;
+				cursor: pointer;
+				clear: both;
+				outline: none;
+				margin: 40px 0;
+				padding: 1em;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			.button:hover {
+				opacity: 0.8;
+				filter: alpha(opacity=80);
+			}
+		</style>
+
+		<script type="text/javascript">
+			var html5 = false;
+			function SelectAll() {
+				var button = document.querySelectorAll(".button"),
+					buttonLenght = button.length,
+					spaces = document.querySelectorAll(".block"),
+					spacesLenght = spaces.length,
+					blocks = document.querySelectorAll(".block, .blocko"),
+					blocksLenght = blocks.length;
+
+				if (!html5) {
+					for (var i = 0; i < spacesLenght; i++)
+						spaces[i].style.backgroundColor = "#FFFFFF";
+
+					spaces = document.querySelectorAll(".blocko");
+					spacesLenght = spaces.length;
+					for (var i = 0; i < spacesLenght; i++)
+						spaces[i].style.backgroundColor = "#FF6600";
+
+					for (var i = 0; i < buttonLenght; i++) {
+						button[i].style.backgroundColor = "#00AAAE";
+						button[i].style.borderColor = "#00AAAE";
+					}
+
+					html5 = true;
+				} else {
+					for (var i = 0; i < blocksLenght; i++)
+						blocks[i].style.backgroundColor = "#00AAAE";
+
+					for (var i = 0; i < buttonLenght; i++) {
+						button[i].style.backgroundColor = "#FF6600";
+						button[i].style.borderColor = "#FF6600";
+					}
+
+					html5 = false;
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="blocksContainer">
+			<!--first row-->
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<!--second row-->
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<!--third row-->
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<!--fourth row-->
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<!--fifth row-->
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="blocko"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+		</div>
+		<button class="button" onclick="SelectAll();">
+			Change color
+		</button>
+	</body>
+</html>
