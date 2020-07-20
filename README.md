@@ -2,4 +2,4 @@
 
 # Simple use of the CSS properties by using vanilla JavaScript
 
-[See it in action](https://blocks-by-ferie.netlify.com/blocks.html)
+[See it in action](https://blocks-by-ferie.netlify.com/)
